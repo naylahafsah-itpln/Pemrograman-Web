@@ -1,0 +1,42 @@
+/* Memberikan style pada judul */ 
+h1 {
+    font-size: 15px; /* size teks */
+    font-weight: bold; /* cetak tebal */
+}
+
+/* Style untuk nama*/
+.nama {
+    color: #ffff00; /* warna teks (kuning) */
+    background-color: #0000ff; /* bg teks (biru)*/
+}
+
+/* Style untuk NIM */
+#nim {
+    color: #0000ff; /* warna teks (biru) */
+}
+
+/* Mengatur posisi teks agar posisinya di tengah */
+p {
+    text-align: center;
+}
+
+/* Memberikan style di paragraf pertama */
+p span {
+    font-style: italic; /* tulisan miring */
+    background-color: #0000ff; /* bg biru */
+    color: white; /* warna teks (putih) */
+}
+
+/* Teks 'amet' di paragraf kedua miring */
+.teks2 span {
+    font-style: italic;
+    color: #000000;
+    background-color: #ffff00;
+}
+
+/* Link youtube */
+a {
+    font-weight: bold;
+    text-decoration: none; /* tidak pakai underline */
+    color: #000000; /* warna teks */
+}
